@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "gone_girl.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
