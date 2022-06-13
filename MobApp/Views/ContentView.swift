@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
 	
-	@State var tabSelection: Int = 0
-	@StateObject var movieViewModel: MovieListViewModel = .init()
+	@State private var tabSelection: Int = 0
+	@StateObject private var movieViewModel: MovieListViewModel = .init()
 	
     var body: some View {
 		TabView(selection: $tabSelection) {

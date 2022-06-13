@@ -20,6 +20,7 @@ struct MovieListScreen: View {
 				} label: {
 					EmptyView()
 				}
+				.hidden()
 				
 				List {
 					ForEach(movieViewModel.movies) { movie in

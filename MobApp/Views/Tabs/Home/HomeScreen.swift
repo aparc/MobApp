@@ -14,12 +14,12 @@ struct HomeScreen: View {
 	
 	var body: some View {
 		Button("Show movie list", action: openMovieDetails)
-		.font(.largeTitle)
-		.padding()
-		.foregroundColor(.white)
-		.background(Color.orange)
-		.cornerRadius(10)
-		.shadow(color: .orange.opacity(0.5), radius: 15, x: 0, y: 10)
+			.font(.largeTitle)
+			.padding()
+			.foregroundColor(.white)
+			.background(Color.orange)
+			.cornerRadius(10)
+			.shadow(color: .orange.opacity(0.5), radius: 15, x: 0, y: 10)
 	} // body
 	
 	func openMovieDetails() {

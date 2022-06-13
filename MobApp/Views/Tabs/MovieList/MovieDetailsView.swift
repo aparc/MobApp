@@ -24,8 +24,7 @@ struct MovieDetailsView: View {
 	func loadImage(name: String) -> UIImage {
 		if let uiImage = UIImage(named: name) {
 			return uiImage
-		}
-		else {
+		} else {
 			fatalError()
 		}
 	}
